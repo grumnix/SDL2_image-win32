@@ -16,8 +16,8 @@
           default = SDL2_image;
 
           SDL2_image = pkgs.stdenv.mkDerivation rec {
-            pname = "SDL2";
-            version = "2.0.22";
+            pname = "SDL2_image";
+            version = "2.0.5";
 
             src = SDL2_image_src;
 
